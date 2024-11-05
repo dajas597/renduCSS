@@ -1,0 +1,15 @@
+ol{
+    display: flex;
+    color: rgb(255, 0, 0);
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+   
+}
+
+header{
+background-color: black;
+height: 100%;
+
+}
