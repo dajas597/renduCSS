@@ -1,15 +1,96 @@
-ol{
+body{
+    margin: 0;
+    }
+     
+    
+    
+      
+      
+
+.nav-list{
     display: flex;
-    color: rgb(255, 0, 0);
+    justify-content: end;
+    margin: 0;
+    padding: 12px;
+
+}
+
+li{
+    display: flex;
+    
+}
+header{
+
+background-color: rgba(0, 0, 0, 0.084);
+
+
+}
+.banner{
+    background-image: url(istockphoto-1502846052-612x612.jpg);
+    font-family: "Lilita One", serif;
+    font-size: 40px;
+    height: 400px;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
+    display: flex;
     justify-content: center;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    gap: 25px;
+    align-items: center;
+    color: deeppink;
+    flex-direction: column;
+}
+
+.bestsell{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: deeppink;
+    font-family: "Itim", cursive;
+    
+}
+
+
+a{
+color: aqua;
+}
+
+h1{
+
+    margin: 0%;
+    
+}
+.banner2{
+    background-image: url(how-to-insert-background-image-in-html.webp);
+}
+
+.maillot{
    
 }
 
-header{
-background-color: black;
-height: 100%;
-
+.produits{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    p{
+        font-family: "Inconsolata", monospace;
+        font-style: unset;
+        font-size: 150%;
+    }
+    h2{
+        font-family: "Anton SC", sans-serif;
+        font-size: 300%;
+        color: deeppink;
+    }
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+.card{
+    img{
+        width: 250px;
+    }
 }
