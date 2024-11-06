@@ -61,12 +61,14 @@ h1{
     
 }
 .banner2{
+    align-items: center;
     background-image: url(how-to-insert-background-image-in-html.webp);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
-.maillot{
-   
-}
+
 
 .produits{
     display: flex;
@@ -92,5 +94,45 @@ h1{
 .card{
     img{
         width: 250px;
+    }
+}
+.produits2{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    p{
+        font-family: "Inconsolata", monospace;
+        font-style: unset;
+        font-size: 150%;
+    }
+    h3{
+        font-family: "Anton SC", sans-serif;
+        font-size: 300%;
+        color: deeppink;
+    }
+}
+.card-wrapper2{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+.card2{
+    img{
+        width: 250px;
+    }
+}
+.rassure{
+    display: flex;
+    gap: 32px;
+}
+.avis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    img{
+        width: 48px;
     }
 }
